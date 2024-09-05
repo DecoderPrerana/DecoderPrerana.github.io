@@ -377,8 +377,10 @@ export const projects = [
     image: require("../assets/grambot.jpg"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
-    github: "",
-    webapp: "",
+    github:
+      "https://www.figma.com/design/bUXEdxxWSuLUsznKC7jCxX/grambot-(1)?node-id=0-1&t=6gVEd3NgvIEdTfJJ-1",
+    webapp:
+      "https://www.figma.com/design/bUXEdxxWSuLUsznKC7jCxX/grambot-(1)?node-id=0-1&t=6gVEd3NgvIEdTfJJ-1",
   },
   {
     id: 10,

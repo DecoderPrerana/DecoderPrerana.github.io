@@ -168,35 +168,81 @@ export const SubTitle = styled.div`
 `;
 
 export const ResumeButton = styled.a`
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    width: 95%;
-    max-width: 300px;
-    text-align: center;
-    padding: 16px 0;
-    color: ${({ theme }) => theme.white};
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
-    transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, rgb(186 118 255) 0%, rgb(237, 76, 255) 100%);
-    box-shadow: -10px 0px 60px rgba(107, 80, 194, 0.3), 1px 1px 60px rgba(107, 80, 194, 0.1);
-    text-shadow: 2px 2px 4px rgba(10, 0, 70, 0.5);
-    &:hover {
-        transform: scale(1.05);
-        transition: all 0.4s ease-in-out;
-        box-shadow: 10px 10px 30px rgba(186, 118, 255, 0.8);
-        filter: brightness(1);
-    }    
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  width: 95%;
+  max-width: 300px;
+  text-align: center;
+  padding: 16px 0;
+  color: ${({ theme }) => theme.white};
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out !important;
+  background: hsla(271, 100%, 50%, 1);
+  background: linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    225deg,
+    rgb(186 118 255) 0%,
+    rgb(237, 76, 255) 100%
+  );
+  box-shadow: -10px 0px 60px rgba(107, 80, 194, 0.3),
+    1px 1px 60px rgba(107, 80, 194, 0.1);
+  text-shadow: 2px 2px 4px rgba(10, 0, 70, 0.5);
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 10px 10px 30px rgba(186, 118, 255, 0.8);
+    filter: brightness(1);
+  }
 
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
+  @media (max-width: 640px) {
+    padding: 12px 0;
+    font-size: 18px;
+  }
+`;
+
+export const LinkedinButton = styled.a`
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  width: 95%;
+  max-width: 300px;
+  text-align: center;
+  padding: 16px 0;
+  color: ${({ theme }) => theme.white};
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out !important;
+  background: #0072b1;
+  background: linear-gradient(#0072b1, #0072b1, #0072b1);
+  background: -moz-linear-gradient(#0072b1, #0072b1, #0072b1);
+  background: -webkit-linear-gradient(#0072b1, #0072b1, #0072b1);
+  box-shadow: (#0072b1, #0072b1, #0072b1);
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 10px 10px 30px #0072b1;
+    filter: brightness(1);
+  }
+
+  @media (max-width: 640px) {
+    padding: 12px 0;
+    font-size: 18px;
+  }
 `;

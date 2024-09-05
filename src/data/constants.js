@@ -3,7 +3,7 @@ export const Bio = {
   roles: [
     "Front End Developer",
     "UI Designer",
-    "Data Analyst",
+    "Product Manager",
     "Python Programmer",
   ],
   description:
@@ -264,10 +264,10 @@ export const projects = [
     title: "Divya Ayodhya App",
     date: "Sept 2023 - Oct 2023",
     description:
-      "Catalog app is a dedicated Android Application that I created to learn the basics of Dart and Flutter framework. I learnt how to implement a login screen for an application. You can browse through various electronic products such as Mobile Phones, Gaming consoles and accessories. All these products have been fetched from the web. The catalog can switch between dark and light themes, according to which the colors in the application will change",
+      "An app dedicated to helping pilgrims with detailed information about Divya Ayodhya, including temple locations, schedules, and special events. The app offers a smooth user experience with both light and dark mode options.",
     image: require("../assets/DA.png"),
     tags: ["UI design", "Figma", "Authentication", "Research"],
-    category: "Web Developement & Deployment",
+    category: "Web Development & Deployment",
     github:
       "https://www.figma.com/proto/HL2VZXqBnOqIQCl6Dp48mk/Divya-Ayodhya?page-id=0%3A1&node-id=117-2433&viewport=-442%2C89%2C0.04&t=j6c3TiQbAzevsMh4-1&scaling=min-zoom&content-scaling=fixed",
     webapp: "https://www.divyaayodhya.com/",
@@ -277,7 +277,7 @@ export const projects = [
     title: "Vyapar Launchpad",
     date: "Nov 2023 - Nov 2023",
     description:
-      "Weather App is a dynamic web application that helps you discover the current weather of a particular city. It is one of the first web applications that I created when I started to learn React JS. The data for the application is fetched from OpenWeather API.",
+      "A business management platform that helps small enterprises track sales, inventory, and customer data. The system provides real-time analytics and integrates with existing payment solutions.",
     image: require("../assets/VL.png"),
     tags: ["React JS", "Express JS", "Node JS", "REST API", "MongoDB", "APIs"],
     category: "UI/UX Design",
@@ -285,172 +285,167 @@ export const projects = [
       "https://www.figma.com/proto/4ciRANWY6Sn3JExxmM77lJ/Vyapaar-Launchpad?page-id=0%3A1&node-id=1-35270&viewport=526%2C364%2C0.04&t=gMUu5B9As7KRa9AK-1&scaling=min-zoom&content-scaling=fixed",
     webapp: "https://vyaparfrontend.vercel.app/",
   },
-
   {
     id: 2,
     title: "Nagar Nigam Ayodhya",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
+      "A comprehensive web platform designed to provide essential municipal services to Ayodhya residents, including water, electricity, and waste management service requests.",
     image: require("../assets/NNA.jpg"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
     github: "https://www.nagarnigamayodhya.in/",
     webapp: "https://www.nagarnigamayodhya.in/",
   },
-
   {
     id: 3,
     title: "KathaVachak App",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
+      "A mobile app for religious storytelling that provides users with spiritual insights and live Katha updates. Users can access various stories, lectures, and event schedules.",
     image: require("../assets/KV.jpg"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
-    github: "https://github.com/prathik2401/Space-Game-using-Javascript",
+    github: "https://kathavachak.in",
     webapp: "kathavachak.in",
   },
-
   {
     id: 4,
     title: "CivicCraft Website",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
+      "The official website for CivicCraft, showcasing the company's products and services. The website features a modern design with intuitive navigation and integrated contact forms.",
     image: require("../assets/CCHome.jpg"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
-    github: "https://github.com/prathik2401/Space-Game-using-Javascript",
+    github: "https://civiccraft.in",
     webapp: "civiccraft.in",
   },
-
   {
     id: 5,
     title: "3i Consulting Web App",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
+      "A web platform that provides consulting services for businesses, including project management, financial advisory, and market research insights.",
     image: require("../assets/3i.jpg"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
     github: "https://3iconsulting.in/",
     webapp: "https://3iconsulting.in/",
   },
-
   {
     id: 6,
     title: "Kashi Prasadam Web App",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
+      "An online ordering system for devotees to order 'Prasadam' from temples in Kashi. The platform includes a secure payment gateway and order tracking.",
     image: require("../assets/SKP.jpg"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
     github: "https://shrikashiprasadam.com/",
     webapp: "https://shrikashiprasadam.com/",
   },
-
   {
-    id: 0,
+    id: 7,
     title: "Gym Application",
     date: "Sept 2023 - Oct 2023",
     description:
-      "Catalog app is a dedicated Android Application that I created to learn the basics of Dart and Flutter framework. I learnt how to implement a login screen for an application. You can browse through various electronic products such as Mobile Phones, Gaming consoles and accessories. All these products have been fetched from the web. The catalog can switch between dark and light themes, according to which the colors in the application will change",
+      "A fitness-focused mobile app built using Flutter and Dart. The app offers workout routines, tracks user progress, and features a BMI calculator.",
     image: require("../assets/GYM.jpg"),
     tags: ["Flutter", "Dart", "APIs", "Authentication", "Web Scraping"],
-    category: "Web Developement & Deployment",
+    category: "Web Development & Deployment",
     github: "https://github.com/PreranaDecoder",
-    // webapp: "https://prathik2401.github.io/Weather-app/",
   },
   {
-    id: 1,
+    id: 8,
     title: "Shadify App",
     date: "Nov 2023 - Nov 2023",
     description:
-      "Weather App is a dynamic web application that helps you discover the current weather of a particular city. It is one of the first web applications that I created when I started to learn React JS. The data for the application is fetched from OpenWeather API.",
-    image: require("../assets/weather.png"),
+      "A matchmaking app designed to help users find potential partners. Shadify offers location-based recommendations and user profile customization.",
+    image: require("../assets/shadify.jpg"),
     tags: ["React JS", "Express JS", "Node JS", "REST API"],
     category: "UI/UX Design",
-    github: "https://github.com/prathik2401/Weather-app",
-    webapp: "https://prathik2401.github.io/Weather-app/",
+    github: "",
+    webapp: "",
   },
-
   {
-    id: 2,
+    id: 9,
     title: "GramBot",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
-    image: require("../assets/space-game.png"),
+      "An AI-powered chatbot that provides assistance to rural communities, answering queries related to government schemes, farming practices, and healthcare.",
+    image: require("../assets/grambot.jpg"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
-    github: "https://github.com/prathik2401/Space-Game-using-Javascript",
-    webapp: "https://spacegame-prathik2401.netlify.app/",
+    github: "",
+    webapp: "",
   },
-
   {
-    id: 3,
-    title: "eLarise website",
+    id: 10,
+    title: "eLarise Website",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
-    image: require("../assets/space-game.png"),
+      "A sleek, responsive e-commerce website for eLarise, offering a wide range of electronic products. The site features secure payments and real-time product updates.",
+    image: require("../assets/elarise.png"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
-    github: "https://github.com/prathik2401/Space-Game-using-Javascript",
-    webapp: "https://spacegame-prathik2401.netlify.app/",
+    github: "https://elarise.netlify.app/",
+    webapp: "https://elarise.netlify.app/",
   },
-
   {
-    id: 4,
+    id: 11,
     title: "Rahat Prahari",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
-    image: require("../assets/space-game.png"),
+      "A disaster management app designed to provide real-time updates during emergencies, including natural disasters and pandemics. The app connects users to relief services.",
+    image: require("../assets/Rahat.jpg"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
-    github: "https://github.com/prathik2401/Space-Game-using-Javascript",
-    webapp: "https://spacegame-prathik2401.netlify.app/",
+    github:
+      "https://www.figma.com/design/wyiLW6jzS7qhdiw2syq56p/Rahat-Hindi?node-id=0-1&t=8hH32Mms1MkuWRpL-1",
+    webapp:
+      "https://www.figma.com/design/wyiLW6jzS7qhdiw2syq56p/Rahat-Hindi?node-id=0-1&t=8hH32Mms1MkuWRpL-1",
   },
-
   {
-    id: 5,
-    title: "Civiccraft Web design",
+    id: 12,
+    title: "Travelsathi Website",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
-    image: require("../assets/space-game.png"),
+      "A redesigned web interface for Travelsathi, focusing on user experience and visual appeal. The project involved creating custom layouts and ensuring mobile responsiveness.",
+    image: require("../assets/travelsathi.png"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
-    github: "https://github.com/prathik2401/Space-Game-using-Javascript",
-    webapp: "https://spacegame-prathik2401.netlify.app/",
+    github:
+      "https://www.figma.com/proto/8OIZLC4t6lnq1bXrBYHTQS/Travel-Sathi?page-id=0%3A1&node-id=1-2&node-type=CANVAS&viewport=250%2C309%2C0.37&t=mufmq3fK9VgRWRUS-1&scaling=scale-down-width&content-scaling=fixed",
+    webapp:
+      "https://www.figma.com/proto/8OIZLC4t6lnq1bXrBYHTQS/Travel-Sathi?page-id=0%3A1&node-id=1-2&node-type=CANVAS&viewport=250%2C309%2C0.37&t=mufmq3fK9VgRWRUS-1&scaling=scale-down-width&content-scaling=fixed",
   },
-
   {
-    id: 6,
-    title: "Odus App",
+    id: 13,
+    title: "Oojus App",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
-    image: require("../assets/space-game.png"),
+      "A communication app that helps organizations streamline their internal communications. It features task management, messaging, and real-time notifications.",
+    image: require("../assets/oojus.jpg"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
-    github: "https://github.com/prathik2401/Space-Game-using-Javascript",
-    webapp: "https://spacegame-prathik2401.netlify.app/",
+    github:
+      "https://www.figma.com/design/JmbH1wG2qaOCmGlh7yIwKr/Oojus-App?node-id=976-1014&t=Fin8SrREKaRTQGIr-1",
+    webapp:
+      "https://www.figma.com/design/JmbH1wG2qaOCmGlh7yIwKr/Oojus-App?node-id=976-1014&t=Fin8SrREKaRTQGIr-1",
   },
-
   {
-    id: 6,
+    id: 14,
     title: "Kumbh Sahayak App",
     date: "Dec 2023 - Jan 2024",
     description:
-      "Space game is a JavaScript based Web Application Game. It works only on Desktop browsers. You can control the space ship using the arrow keys and fire using the Spacebar. It contains object oriented concepts such as inheritence, and polymorphism.",
-    image: require("../assets/space-game.png"),
+      "A navigation and guide app designed for the Kumbh Mela event, helping attendees with event schedules, maps, and emergency contact information.",
+    image: require("../assets/kumbh sahayak.jpg"),
     tags: ["JavaScript", "React JS"],
     category: "UI/UX Design",
-    github: "https://github.com/prathik2401/Space-Game-using-Javascript",
-    webapp: "https://spacegame-prathik2401.netlify.app/",
+    github:
+      "https://www.figma.com/design/ChyPLVS1YYlYIaDayg98iG/%E0%A4%95%E0%A5%81%E0%A4%82%E0%A4%AD-%E0%A4%B8%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%95?node-id=0-1&t=OppYHwVSSGQHysNp-1",
+    webapp:
+      "https://www.figma.com/design/ChyPLVS1YYlYIaDayg98iG/%E0%A4%95%E0%A5%81%E0%A4%82%E0%A4%AD-%E0%A4%B8%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%95?node-id=0-1&t=OppYHwVSSGQHysNp-1",
   },
 ];

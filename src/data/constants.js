@@ -1,18 +1,18 @@
 export const Bio = {
   name: "Prerana Bhandari",
   roles: [
-    "Front End Developer",
-    "UI/UX Designer",
+    "Software Engineer",
     "Product Designer",
+    "Full Stack Developer",
     "Product Manager",
-    "Python Programmer",
+    "UI/UX Designer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/PreranaDecoder",
   resume:
-    "https://drive.google.com/file/d/1b76_lHWvQ2v0Bz7nR6OJyzOn0Cho10dg/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/prerana-bhandari-01865721b/",
+    "https://drive.google.com/file/d/1Cgck-cB2NcpUKL8aPg27I5lQMrNyYxSY/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/preranabhandari/",
   twitter: "",
   insta: "https://www.instagram.com/capt_the_nature/",
   facebook: "",

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf538fe7.css",
+    "main.js": "/static/js/main.ecfcb607.js",
+    "static/media/CCHome.jpg": "/static/media/CCHome.5ef0cc34c702297c36eb.jpg",
+    "static/media/3i.jpg": "/static/media/3i.a13fadf32f07cb5075bf.jpg",
+    "static/media/SKP.jpg": "/static/media/SKP.5c761494be3a1d60a549.jpg",
+    "static/media/VL.png": "/static/media/VL.a7c5c464617476dfec13.png",
+    "static/media/DA.png": "/static/media/DA.8933a2fe4cc6b277c7a8.png",
+    "static/media/grambot.jpg": "/static/media/grambot.8ba8eb46bc53b759c91a.jpg",
+    "static/media/travelsathi.png": "/static/media/travelsathi.385309d8ef3ea0daf427.png",
+    "static/media/profileImage.jpg": "/static/media/profileImage.c614f2821179cf53b8ca.jpg",
+    "static/media/elarise.png": "/static/media/elarise.cd1b6d85eb6eaa7a5e38.png",
+    "static/media/oojus.jpg": "/static/media/oojus.22c876f2556fbec229dd.jpg",
+    "static/media/Rahat.jpg": "/static/media/Rahat.a0ee2128e3dc7d428533.jpg",
+    "static/media/NNA.jpg": "/static/media/NNA.19be2d4b8072a0b681e7.jpg",
+    "static/media/kumbh sahayak.jpg": "/static/media/kumbh sahayak.ab633fd170c01513d3f0.jpg",
+    "static/media/GYM.jpg": "/static/media/GYM.6c839eda2da4055f41dd.jpg",
+    "static/media/KV.jpg": "/static/media/KV.a1885146c91f2c9f0246.jpg",
+    "static/media/shadify.jpg": "/static/media/shadify.45d82e2af53563356147.jpg",
+    "index.html": "/index.html",
+    "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
+    "main.ecfcb607.js.map": "/static/js/main.ecfcb607.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.ecfcb607.js"
+  ]
+}
